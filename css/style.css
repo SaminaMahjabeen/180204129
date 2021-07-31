@@ -1,0 +1,196 @@
+
+ body {
+    font-family: "Montserrat";
+}
+.heading{
+    font-weight: 600;
+}
+.nav_bar_link {
+    font-size: 13px;
+    font-weight: 700;
+    color: black !important;
+  }
+  .carousel-inner {
+    position: relative;
+    height: 650px;
+}
+.carousel.slide .container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    margin: auto;
+    max-width: none;
+}
+.carousel.slide .container .banner { 
+    position: relative;
+    max-width: 1140px;
+    margin: auto;
+} 
+.carousel.slide .container .banner h1 {
+    color: #ffffff;
+    font-size: 95px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+.carousel.slide .container .banner h2 {
+    color: #ffffff;
+    font-size: 42px;
+    font-family: "Montserrat";
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 992px) {
+    .banner .col h1 {
+        font-size: 90px !important;
+        margin-top: 0px !important;
+    }
+    .banner .col h2 {
+        font-size: 40px !important;
+    }
+    .carousel-inner {
+        height: 550px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .banner .col h1 {
+        font-size: 70px !important;
+        margin-top: 0px !important;
+    }
+    .banner .col h2 {
+        font-size: 30px !important;
+    }
+    .carousel-inner {
+        height: 450px;
+    }
+}
+.contacts-part h3{
+    color: #79b7ce;
+    font-weight: 500;
+    font-size: 17px;
+}
+.contacts-part p,.contacts-part a{
+    color: #f4f5f9;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 300;
+} 
+ .services-part{
+        text-align: center;
+        background: #f2f2f2;
+        padding-top: 140px;
+        padding-bottom: 130px;
+}
+.icon {
+    background: #56bce3;
+   height:75px;
+   width:75px;
+   margin: 0 auto;
+   position: relative;
+   bottom:50px;
+   padding-top: 21px ; 
+}
+
+.cloud-portion h5{
+    font-weight: 600;
+    font-size: 21px; 
+} 
+.cloud-portion{
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.17);
+    background: #ffffff;
+    margin: 40px 15px;
+
+} 
+.cloud-portion p{
+    color: #8e8e8e;
+    font-size: 14px;
+} 
+
+.about_us{
+    background:  #56bbe9;
+}
+
+.about, .dark_portion p,h5{
+   color: #fffcfe;
+}
+.about  h5,.dark_portion h5{
+    font-weight: 900;
+    padding-top: 55px;
+    padding-bottom: 15px;
+}
+
+.about {
+    border: 3px solid #e1ffff;
+}
+.about,.dark_portion{
+    font-size: 13px;
+    margin: 40px 15px 15px 15px;
+    height: 289px;
+}
+.about p,.dark_portion p{
+padding-bottom: 20px;
+}
+.about_us_img{
+    width: 310px;
+    height:301px ;
+    margin: 40px 15px 15px 15px;
+}
+.blog{
+margin-top: 120px;
+}
+.blog-posts h3{
+   font-weight: 700;
+}
+.blog-posts h6{
+    color:#8a7e7ecb;
+    margin: 0;
+ }
+.blog-heading h5{
+    font-weight: 700;
+    padding-top: 35px;
+    padding-bottom: 22px;
+}
+
+.blog-heading p{
+    color:#8a7e7ecb;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.blog-footer img{
+    height: 17px;
+    width: 17px;
+}
+.blog-footer h6{
+font-size: 11px;
+font-weight: 700;
+}
+.blog .blog-footer{
+    border-top: 1px solid #f1eeee;
+    margin: 0;
+}
+.blog .content{
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.17);
+    height: 100%;
+}
+.blog-footer{
+    height: 90px;
+}
+.footer-icon{
+    border-right: 1px solid #f1eeee;
+}
+.footer p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    }
+.footer{
+        margin-top: 160px;
+        height:120px;
+        background: black;
+        font-family: "Arial";
+    }
+    
